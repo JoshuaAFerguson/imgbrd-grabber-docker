@@ -12,6 +12,7 @@ services:
     volumes:
       - ~/grabber:/grabber #optional - holds the grabber binary and it's config files. Useful to persist configurations.
       - ~/data:/data #Downloads volume - Must be set as the save path during the first run of Grabber.
+    #      - ~/config:/config #optional - Base container config path, used if you want to enable SSL. 
     ports:
       - 5800:5800 #Web interface port
       - 5900:5900 #Optional - VNC port
