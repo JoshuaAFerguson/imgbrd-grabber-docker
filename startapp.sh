@@ -1,4 +1,4 @@
 #!/bin/sh
-export HOME=/data
+export HOME=/config
 
 exec /grabber/Grabber

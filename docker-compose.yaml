@@ -1,6 +1,6 @@
 services:
   grabber:
-    image: imgbrd-grabber-docker
+    image: s0v3r1gn/imgbrd-grabber-docker:latest
     environment:
       - TZ=America/Phoenix
       - KEEP_APP_RUNNING=1
